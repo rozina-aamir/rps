@@ -12,8 +12,8 @@ const rock = 1;
 const paper = 2;
 const scissors = 3;
 
-function getComputerChoice(rock, paper, scissors) {
-    return Math.random();
+function getComputerChoice() {
+    return Math.random() ;
 }
 
 console.log(getComputerChoice);
