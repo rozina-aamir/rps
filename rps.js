@@ -15,4 +15,4 @@ function getComputerChoice() {
     return Math.random() ;
 }
 
-console.log(options);
+console.log(choice);
