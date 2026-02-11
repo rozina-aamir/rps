@@ -9,7 +9,7 @@ console.log("Hello World");
 // Log the result to the console
 
 function getComputerChoice(rock, paper, scissors) {
-    return computerChoice;
+    return Math.random();
 }
 
 console.log(getComputerChoice);
