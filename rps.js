@@ -12,4 +12,4 @@ function getComputerChoice(computerChoice) {
     return computerChoice;
 }
 
-console.log(computerChoice);
+console.log(getComputerChoice);
