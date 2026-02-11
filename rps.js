@@ -7,3 +7,9 @@ console.log("Hello World");
 // Use Math.random to get Computer Choice
 //
 // Log the result to the console
+
+function getComputerChoice(rock, paper, scissors) {
+    return getComputerChoice;
+}
+
+console.log(getComputerChoice);
