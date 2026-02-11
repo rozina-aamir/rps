@@ -8,6 +8,10 @@ console.log("Hello World");
 //
 // Log the result to the console
 
+const rock = 1;
+const paper = 2;
+const scissors = 3;
+
 function getComputerChoice(rock, paper, scissors) {
     return Math.random();
 }
