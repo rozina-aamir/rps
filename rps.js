@@ -8,7 +8,7 @@ console.log("Hello World");
 //
 // Log the result to the console
 
-function getComputerChoice(rock, paper, scissors) {
+function getComputerChoice(computerChoice) {
     return computerChoice;
 }
 
