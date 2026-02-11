@@ -9,7 +9,7 @@ console.log("Hello World");
 // Log the result to the console
 
 function getComputerChoice(rock, paper, scissors) {
-    return getComputerChoice;
+    return computerChoice;
 }
 
-console.log(getComputerChoice);
+console.log(computerChoice);
