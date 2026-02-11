@@ -8,12 +8,11 @@ console.log("Hello World");
 //
 // Log the result to the console
 
-const rock = 1;
-const paper = 2;
-const scissors = 3;
+var options = ["rock", "paper", "scissors"];
+var choice = options[Math.floor(Math.random()*options.length)];
 
 function getComputerChoice() {
     return Math.random() ;
 }
 
-console.log(getComputerChoice);
+console.log(options);
