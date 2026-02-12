@@ -20,3 +20,7 @@ console.log(choice);
 // 3. Otherwise, don't return anything
 
 // Log the prompt to the console
+
+function getHumanChoice() {
+    var input = prompt("Rock, paper, or scissors");
+}
