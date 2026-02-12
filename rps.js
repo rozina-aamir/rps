@@ -25,4 +25,4 @@ function getHumanChoice() {
     return prompt("Rock, paper, or scissors");
 }
 
-console.log(input);
+console.log(prompt);
