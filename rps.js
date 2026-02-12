@@ -22,7 +22,7 @@ console.log(choice);
 // Log the prompt to the console
 
 function getHumanChoice() {
-    var input = prompt("Rock, paper, or scissors");
+    return prompt("Rock, paper, or scissors");
 }
 
 console.log(input);
