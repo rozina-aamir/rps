@@ -39,3 +39,5 @@ function getHumanChoice() {
         }
     });
 }
+
+console.log(play);
