@@ -37,5 +37,5 @@ function getHumanChoice() {
         } else {
             log.innerText = "Try again";
         }
-    })
+    });
 }
