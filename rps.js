@@ -39,5 +39,3 @@ function getHumanChoice() {
         }
     })
 }
-
-console.log(prompt);
