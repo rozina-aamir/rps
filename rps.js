@@ -24,3 +24,5 @@ console.log(choice);
 function getHumanChoice() {
     var input = prompt("Rock, paper, or scissors");
 }
+
+console.log(input);
