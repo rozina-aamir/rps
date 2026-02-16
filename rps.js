@@ -21,7 +21,7 @@ console.log(choice);
 
 // Log the prompt to the console
 
-function getHumanChoice(play) {
+function getHumanChoice(_play) {
     const playButton = document.querySelector("#playButton");
     const log = document.querySelector("#log");
 
