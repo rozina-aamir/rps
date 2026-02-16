@@ -26,7 +26,7 @@ function getHumanChoice() {
     const log = document.querySelector("#log");
 
     playButton.addEventListener("click", () => {
-        let play = window.prompt("Rock, paper, or scissors.");
+        var play = window.prompt("Rock, paper, or scissors.");
 
         if (play = "rock") {
             log.innerText = "You won!";
