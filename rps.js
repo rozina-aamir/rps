@@ -1,3 +1,5 @@
+console.log("JS loaded");
+
 var options = ["rock", "paper", "scissors"];
 var choice = options[Math.floor(Math.random()*options.length)];
 
