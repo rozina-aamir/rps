@@ -25,19 +25,21 @@ function getHumanChoice(_play) {
     const playButton = document.querySelector("#playButton");
     const log = document.querySelector("#log");
 
-    playButton.addEventListener("click", () => {
-        var play = window.prompt("Rock, paper, or scissors.");
+        function play() {
+            playButton.addEventListener("click", () => {
+                var play = window.prompt("Rock, paper, or scissors.");
 
-        if (play = "rock") {
-            log.innerText = "You won!";
-        } else if (play = "paper") {
-            log.innerText = "It's a draw.";
-        } else if (play = "scissors") {
-            log.innerText = "You lost.";
-        } else {
-            log.innerText = "Try again";
+                if (play = "rock") {
+                    log.innerText = "You won!";
+                } else if (play = "paper") {
+                    log.innerText = "It's a draw.";
+                } else if (play = "scissors") {
+                    log.innerText = "You lost.";
+                } else {
+                log.innerText = "Try again";
+                }
+            });
         }
-    });
 }
 
 console.log(play);
