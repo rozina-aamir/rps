@@ -42,4 +42,4 @@ function getHumanChoice(_play) {
         }
 }
 
-console.log(play);
+getHumanChoice();
