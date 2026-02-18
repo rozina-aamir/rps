@@ -31,6 +31,8 @@ function getHumanChoice(_play) {
         function play() {
             playButton.addEventListener("click", () => {
                 console.log("Button clicked");
+                prompt(humanChoice);
+                console.log(humanChoice);
             //
             //    var play = window.prompt("Rock, paper, or scissors.");
 
