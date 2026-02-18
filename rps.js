@@ -24,7 +24,7 @@ console.log(choice);
 // Log the prompt to the console
 
 function getHumanChoice() {
-
+    return prompt("Rock, paper, scissors.");
 }
 
 getHumanChoice();
