@@ -27,4 +27,7 @@ function getHumanChoice() {
     return prompt("Rock, paper, scissors.");
 }
 
-getHumanChoice();
+playButton.addEventListener("click", () => {
+    const humanChoice = getHumanChoice();
+    console.log(humanChoice);
+});
