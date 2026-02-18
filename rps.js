@@ -19,5 +19,3 @@ playButton.addEventListener("click", () => {
     const humanChoice = getHumanChoice();
     console.log(humanChoice);
 });
-
-// Logic to getHumanChoice Completed!
