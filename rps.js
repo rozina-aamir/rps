@@ -20,11 +20,11 @@ playButton.addEventListener("click", () => {
     console.log(humanChoice);
 });
 
-if humanChoice() = "rock" {
+if (humanChoice === "rock") {
     return "You win!";
-} else if humanChoice() = "paper" {
+} else if (humanChoice === "paper") {
     return "It is a draw.";
-} else if humanChoice() = "scissors" {
+} else if (humanChoice === "scissors") {
     return "You lost!";
 } else {
     return "Please try again";
