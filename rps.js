@@ -19,3 +19,13 @@ playButton.addEventListener("click", () => {
     const humanChoice = getHumanChoice();
     console.log(humanChoice);
 });
+
+if getHumanChoice() = "rock" {
+    return "You win!";
+} else if getHumanChoice() = "paper" {
+    return "It is a draw.";
+} else if getHumanChoice() = "scissors" {
+    return "You lost!";
+} else {
+    return "Please try again";
+}
