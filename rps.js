@@ -23,6 +23,7 @@ function getHumanChoice() {
     } else {
         return "Please try again";
     }
+    console.log("Function is running");
 }
 
 playButton.addEventListener("click", () => {
