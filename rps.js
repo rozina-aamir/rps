@@ -30,3 +30,5 @@ playButton.addEventListener("click", () => {
     const humanChoice = getHumanChoice();
     console.log(humanChoice);
 });
+
+getHumanChoice();
