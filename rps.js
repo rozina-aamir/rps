@@ -32,5 +32,3 @@ button.addEventListener("click", () => {
     const result = getHumanChoice();
     console.log(result);
 });
-
-console.log(button);
