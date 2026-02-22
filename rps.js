@@ -30,9 +30,8 @@ const button = document.querySelector("button");
 
 playButton.addEventListener("click", () => {
     const humanChoice = getHumanChoice();
+    getHumanChoice();
     console.log(humanChoice);
 });
 
 console.log(button);
-
-getHumanChoice();
