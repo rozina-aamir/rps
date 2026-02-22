@@ -31,4 +31,6 @@ playButton.addEventListener("click", () => {
     console.log(humanChoice);
 });
 
+console.log(button);
+
 getHumanChoice();
