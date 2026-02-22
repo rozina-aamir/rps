@@ -26,6 +26,8 @@ function getHumanChoice() {
     console.log("Function is running");
 }
 
+const button = document.querySelector("button");
+
 playButton.addEventListener("click", () => {
     const humanChoice = getHumanChoice();
     console.log(humanChoice);
