@@ -12,7 +12,7 @@ console.log(choice);
 // Function getComputerChoice Completed!
 
 function getHumanChoice() {
-    return prompt("Rock, paper, scissors.");
+    const humanChoice = prompt("Rock, paper, scissors.");
 
     if (humanChoice === "rock") {
         return "You win!";
@@ -28,10 +28,9 @@ function getHumanChoice() {
 
 const button = document.querySelector("button");
 
-playButton.addEventListener("click", () => {
-    const humanChoice = getHumanChoice();
-    getHumanChoice();
-    console.log(humanChoice);
+button.addEventListener("click", () => {
+    const result = getHumanChoice();
+    console.log(result);
 });
 
 console.log(button);
