@@ -1,8 +1,7 @@
-var options = ["rock", "paper", "scissors"];
-var choice = options[Math.floor(Math.random()*options.length)];
-
 function getComputerChoice() {
-    return Math.random() ;
+    const choices = ["rock", "paper", "scissors"];
+    const randomIndex = Math.floor(Math.random() * 3);
+    return choices[randomIndex];
 }
 
 console.log(choice);
