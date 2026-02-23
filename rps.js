@@ -1,5 +1,3 @@
-console.log("JS loaded");
-
 var options = ["rock", "paper", "scissors"];
 var choice = options[Math.floor(Math.random()*options.length)];
 
@@ -23,7 +21,6 @@ function getHumanChoice() {
     } else {
         return "Please try again";
     }
-    console.log("Function is running");
 }
 
 const button = document.querySelector("button");
