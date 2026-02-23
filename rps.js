@@ -10,16 +10,6 @@ console.log(getComputerChoice());
 
 function getHumanChoice() {
     const humanChoice = prompt("Rock, paper, scissors.");
-
-    if (humanChoice === "rock") {
-        return "You win!";
-    } else if (humanChoice === "paper") {
-        return "It is a draw.";
-    } else if (humanChoice === "scissors") {
-        return "You lost!";
-    } else {
-        return "Please try again";
-    }
 }
 
 const button = document.querySelector("button");
