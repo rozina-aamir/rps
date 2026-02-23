@@ -32,3 +32,6 @@ button.addEventListener("click", () => {
     const result = getHumanChoice();
     console.log(result);
 });
+
+let humanScore = 0;
+console.log(humanScore);
