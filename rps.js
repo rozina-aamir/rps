@@ -12,6 +12,11 @@ console.log(choice);
 function getHumanChoice() {
     const humanChoice = prompt("Rock, paper, scissors.");
 
+    const button = document.querySelector("button");button.addEventListener("click", () => {
+    const result = getHumanChoice();
+    console.log(result);
+    });
+
     if (humanChoice === "rock") {
         return "You win!";
     } else if (humanChoice === "paper") {
@@ -22,13 +27,6 @@ function getHumanChoice() {
         return "Please try again";
     }
 }
-
-const button = document.querySelector("button");
-
-button.addEventListener("click", () => {
-    const result = getHumanChoice();
-    console.log(result);
-});
 
 let humanScore = 0;
 console.log(humanScore);
