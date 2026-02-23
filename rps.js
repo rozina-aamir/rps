@@ -35,3 +35,7 @@ console.log(humanScore);
 
 let computerScore = 0;
 console.log(computerScore);
+
+function playRound(humanChoice, computerChoice) {
+
+}
