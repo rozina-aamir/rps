@@ -35,3 +35,6 @@ button.addEventListener("click", () => {
 
 let humanScore = 0;
 console.log(humanScore);
+
+let computerScore = 0;
+console.log(computerScore);
