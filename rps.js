@@ -9,7 +9,7 @@ console.log(getComputerChoice());
 // Function getComputerChoice Completed!
 
 function getHumanChoice() {
-    const humanChoice = prompt("Rock, paper, scissors.");
+    return prompt("Rock, paper, scissors.");
 }
 
 const button = document.querySelector("button");
