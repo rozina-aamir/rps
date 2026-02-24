@@ -26,7 +26,9 @@ let computerScore = 0;
 console.log(computerScore);
 
 function playRound(humanChoice, computerChoice) {
-
+    if (humanChoice === computerChoice) {
+        return "It is a draw!";
+    }
 }
 
 const humanSelection = getHumanChoice();
