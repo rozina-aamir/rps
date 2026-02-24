@@ -29,6 +29,14 @@ function playRound(humanChoice, computerChoice) {
     if (humanChoice === computerChoice) {
         return "It is a draw!";
     }
+
+    if (
+        (humanChoice === "rock" && computerChoice === "scissors") || (humanChoice === "paper" && computerChoice === "rock") || (humanChoice === "scissors" && computerChoice === "paper")
+    ) {
+        return "You win!";
+    } else {
+        return "You lost!";
+    }
 }
 
 const humanSelection = getHumanChoice();
