@@ -28,9 +28,7 @@ console.log(computerScore);
 function playRound(humanChoice, computerChoice) {
     if (humanChoice === computerChoice) {
         return "It is a draw!";
-    }
-
-    if (
+    } else if (
         (humanChoice === "rock" && computerChoice === "scissors") || (humanChoice === "paper" && computerChoice === "rock") || (humanChoice === "scissors" && computerChoice === "paper")
     ) {
         return "You win!";
