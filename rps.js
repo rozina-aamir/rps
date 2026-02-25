@@ -17,6 +17,10 @@ const button = document.querySelector("button");
 button.addEventListener("click", () => {
     const humanSelection = getHumanChoice();
     const computerSelection = getComputerChoice();
+
+    console.log("Human: ", humanSelection);
+    console.log("Computer: ", computerSelection);
+
     const result = getHumanChoice();
     console.log(result);
 });
