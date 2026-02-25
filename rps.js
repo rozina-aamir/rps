@@ -15,6 +15,8 @@ function getHumanChoice() {
 const button = document.querySelector("button");
 
 button.addEventListener("click", () => {
+    const humanSelection = getHumanChoice();
+    const computerSelection = getComputerChoice();
     const result = getHumanChoice();
     console.log(result);
 });
@@ -38,8 +40,5 @@ function playRound(humanChoice, computerChoice) {
 }
 
 console.log(playRound());
-
-const humanSelection = getHumanChoice();
-const computerSelection = getComputerChoice();
 
 playRound(humanSelection, computerSelection);
