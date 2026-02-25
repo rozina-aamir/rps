@@ -26,10 +26,10 @@ button.addEventListener("click", () => {
 });
 
 let humanScore = 0;
-console.log(humanScore);
+console.log("Your score is:", humanScore);
 
 let computerScore = 0;
-console.log(computerScore);
+console.log("The computer\'s score is:", computerScore);
 
 function playRound(humanChoice, computerChoice) {
     if (humanChoice === computerChoice) {
