@@ -9,7 +9,8 @@ console.log(getComputerChoice());
 // Function getComputerChoice Completed!
 
 function getHumanChoice() {
-    return prompt("Rock, paper, scissors.");
+    const input = prompt("Rock, paper, scissors.");
+    return input.trim().toLowerCase();
 }
 
 const button = document.querySelector("button");
