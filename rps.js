@@ -42,5 +42,3 @@ function playRound(humanChoice, computerChoice) {
         return "You lost!";
     }
 }
-
-console.log(playRound());
