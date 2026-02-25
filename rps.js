@@ -18,10 +18,10 @@ button.addEventListener("click", () => {
     const humanSelection = getHumanChoice();
     const computerSelection = getComputerChoice();
 
-    console.log("Human: ", humanSelection);
-    console.log("Computer: ", computerSelection);
+    console.log("Human:", humanSelection);
+    console.log("Computer:", computerSelection);
 
-    const result = getHumanChoice();
+    const result = playRound(humanSelection, computerSelection);
     console.log(result);
 });
 
@@ -44,5 +44,3 @@ function playRound(humanChoice, computerChoice) {
 }
 
 console.log(playRound());
-
-playRound(humanSelection, computerSelection);
