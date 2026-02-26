@@ -40,6 +40,6 @@ function playRound(humanChoice, computerChoice) {
     ) {
         return `You win! ${humanChoice} beats ${computerChoice}`;
     } else {
-        return "You lost!";
+        return `You lost! ${computerChoice} beats ${humanChoice}`;
     }
 }
