@@ -4,8 +4,6 @@ function getComputerChoice() {
     return choices[randomIndex];
 }
 
-console.log(getComputerChoice());
-
 // Function getComputerChoice Completed!
 
 function getHumanChoice() {
