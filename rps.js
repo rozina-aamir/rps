@@ -23,6 +23,7 @@ button.addEventListener("click", () => {
     console.log("Computer:", computerSelection);
 
     const result = playRound(humanSelection, computerSelection);
+    console.log(result);
 });
 
 let humanScore = 0;
