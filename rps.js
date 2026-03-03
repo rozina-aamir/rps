@@ -37,6 +37,7 @@ function playRound(humanChoice, computerChoice) {
         (humanChoice === "rock" && computerChoice === "scissors") || (humanChoice === "paper" && computerChoice === "rock") || (humanChoice === "scissors" && computerChoice === "paper")
     ) {
         return `You win! ${humanChoice} beats ${computerChoice}`;
+        humanScore++;
     } else {
         return `You lost! ${computerChoice} beats ${humanChoice}`;
     }
