@@ -47,4 +47,15 @@ function playGame() {
             return `You lost! ${computerChoice} beats ${humanChoice}`;
         }
     }
+
+    for (let i = 0; i < 5; i++) {
+        const humanSelection = getHumanChoice();
+        const computerSelection = getComputerChoice();
+
+        const result = playRound(humanSelection, computerSelection);
+    }
+
+    console.log("Final Scores:");
+    console.log("Human:", humanScore);
+    console.log("Computer:", computerScore);
 }
