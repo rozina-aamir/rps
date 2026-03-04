@@ -59,3 +59,5 @@ function playGame() {
     console.log("Human:", humanScore);
     console.log("Computer:", computerScore);
 }
+
+playGame();
