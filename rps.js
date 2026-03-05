@@ -53,4 +53,4 @@ function playGame() {
     console.log("Computer:", computerScore);
 }
 
-playGame();
+playRound();
