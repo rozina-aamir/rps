@@ -47,10 +47,10 @@ function playGame() {
             return `You lost! ${computerChoice} beats ${humanChoice}`;
         }
     }
-
-    console.log("Final Scores:");
-    console.log("Human:", humanScore);
-    console.log("Computer:", computerScore);
 }
 
 playRound();
+
+console.log("Final Scores:");
+console.log("Human:", humanScore);
+console.log("Computer:", computerScore);
