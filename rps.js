@@ -22,6 +22,7 @@ button.addEventListener("click", () => {
 
     const result = playRound(humanSelection, computerSelection);
     console.log(result);
+    playRound();
 });
 
 let humanScore = 0;
@@ -48,8 +49,6 @@ function playGame() {
         }
     }
 }
-
-playRound();
 
 console.log("Final Scores:");
 console.log("Human:", humanScore);
