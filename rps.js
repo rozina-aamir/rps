@@ -22,7 +22,7 @@ button.addEventListener("click", () => {
 
     const result = playRound(humanSelection, computerSelection);
     console.log(result);
-    playRound();
+    playGame();
 });
 
 let humanScore = 0;
