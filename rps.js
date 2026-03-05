@@ -51,6 +51,8 @@ function playGame() {
     }
 }
 
+playRound();
+
 console.log("Final Scores:");
 console.log("Human:", humanScore);
 console.log("Computer:", computerScore);
