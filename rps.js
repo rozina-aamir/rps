@@ -14,11 +14,7 @@ function getHumanChoice() {
 const button = document.querySelector("button");
 
 button.addEventListener("click", () => {
-    const humanSelection = getHumanChoice();
-    const computerSelection = getComputerChoice();
-
-    console.log("Human:", humanSelection);
-    console.log("Computer:", computerSelection);
+    playGame();
 });
 
 let humanScore = 0;
