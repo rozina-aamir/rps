@@ -65,4 +65,8 @@ function playGame() {
     computerSelection = getComputerChoice();
     result = playRound(humanSelection, computerSelection);
     console.log(result);
+
+    console.log("Final Scores:");
+    console.log("Human:", humanScore);
+    console.log("Computer:", computerScore);
 }
