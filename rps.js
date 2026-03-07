@@ -44,6 +44,12 @@ function playGame() {
             return `You lost! ${computerChoice} beats ${humanChoice}`;
         }
     }
+
+    const humanSelection = getHumanChoice();
+    const computerSelection = getComputerChoice();
+
+    const result = playRound(humanSelection, computerSelection);
+    console.log(result);
 }
 
 playGame();
