@@ -32,7 +32,6 @@ let computerScore = 0;
 console.log("The computer\'s score is:", computerScore);
 
 function playGame() {
-    playRound();
     function playRound(humanChoice, computerChoice) {
         if (humanChoice === computerChoice) {
             return `It is a draw! You both chose ${humanChoice}`;
