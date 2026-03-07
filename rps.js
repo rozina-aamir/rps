@@ -47,9 +47,3 @@ function playGame() {
     const result = playRound(humanSelection, computerSelection);
     console.log(result);
 }
-
-playGame();
-
-console.log("Final Scores:");
-console.log("Human:", humanScore);
-console.log("Computer:", computerScore);
