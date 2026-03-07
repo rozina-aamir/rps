@@ -41,28 +41,28 @@ function playGame() {
         }
     }
 
-    const humanSelection = getHumanChoice();
-    const computerSelection = getComputerChoice();
-    const result = playRound(humanSelection, computerSelection);
+    humanSelection = getHumanChoice();
+    computerSelection = getComputerChoice();
+    result = playRound(humanSelection, computerSelection);
     console.log(result);
 
-    const humanSelection = getHumanChoice();
-    const computerSelection = getComputerChoice();
-    const result = playRound(humanSelection, computerSelection);
+    humanSelection = getHumanChoice();
+    computerSelection = getComputerChoice();
+    result = playRound(humanSelection, computerSelection);
     console.log(result);
 
-    const humanSelection = getHumanChoice();
-    const computerSelection = getComputerChoice();
-    const result = playRound(humanSelection, computerSelection);
+    humanSelection = getHumanChoice();
+    computerSelection = getComputerChoice();
+    result = playRound(humanSelection, computerSelection);
     console.log(result);
 
-    const humanSelection = getHumanChoice();
-    const computerSelection = getComputerChoice();
-    const result = playRound(humanSelection, computerSelection);
+    humanSelection = getHumanChoice();
+    computerSelection = getComputerChoice();
+    result = playRound(humanSelection, computerSelection);
     console.log(result);
 
-    const humanSelection = getHumanChoice();
-    const computerSelection = getComputerChoice();
-    const result = playRound(humanSelection, computerSelection);
+    humanSelection = getHumanChoice();
+    computerSelection = getComputerChoice();
+    result = playRound(humanSelection, computerSelection);
     console.log(result);
 }
