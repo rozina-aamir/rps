@@ -51,7 +51,7 @@ function playGame() {
     }
 }
 
-playRound();
+playGame();
 
 console.log("Final Scores:");
 console.log("Human:", humanScore);
